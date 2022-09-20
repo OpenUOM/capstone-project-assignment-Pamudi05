@@ -12,6 +12,7 @@ export class AddNewStudentComponent implements OnInit {
   constructor(private service : AppServiceService, private router: Router) { }
 
   ngOnInit(): void {
+    console.log("Pamudi Niwarthana")
   }
 
   createStudent(value){
